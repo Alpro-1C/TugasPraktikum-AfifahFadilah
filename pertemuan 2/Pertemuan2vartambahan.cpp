@@ -1,23 +1,25 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int firstValue = 10;
-    int secondValue = 8;
+    int firstValue;
+    int secondValue;
     int temp;
 
     cout << "menukar kedua variabel menggunakan variabel tambahan" << endl <<endl;
     
     cout << "Sebelum pertukaran:" << endl;
-    cout << "firstValue = " << firstValue << endl;
-    cout << "secondValue = " << secondValue << endl;
+    cout << "nilai pertama = ";
+    cin >> firstValue;
+    cout << "nilai kedua = ";
+    cin >> secondValue;
 
     temp = firstValue;
     firstValue = secondValue;
     secondValue = temp;
 
     cout << "Setelah pertukaran:" << endl;
-    cout << "firstValue = " << firstValue << endl;
-    cout << "secondValue = " << secondValue << endl;
+    cout << "nilai pertama = " << firstValue << endl;
+    cout << "nilai kedua = " << secondValue << endl;
 
     return 0;
 }

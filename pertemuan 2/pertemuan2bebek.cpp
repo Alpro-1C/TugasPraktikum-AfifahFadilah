@@ -9,7 +9,7 @@ int main() {
     cin >> N;
     cout <<"Masukkan Jumlah Teman Pak Tatang: ";
     cin >> M;
-    cout << "Pak tatang memiliki " << N << " ekor bebek." << endl;
+    cout << "Pak tatang memiliki " << N << " ekor bebek." << endl <<endl;
     cout << "Pak tatang ingin membagi rata bebek tersebut kepada " << M << " orang teman nya maka:" <<endl <<endl;
 
     int ekorPerTeman = N / M;

@@ -8,7 +8,7 @@ int main() {
     int nilai;
     
     //memasukkan nilai
-    cout << " masukkan nilai anda= " << endl;
+    cout << " masukkan nilai anda = ";
     cin >> nilai;
     
     //pengkondisian yang mungkin terjadi

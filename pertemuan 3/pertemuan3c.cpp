@@ -42,7 +42,7 @@ int main() {
 
         default:
             cout << "Pilihan tidak berada dalam daftar" << endl;
-            return 1;
+            return 0;
     }
 
     cout << "Luasnya adalah: " << luas << endl;

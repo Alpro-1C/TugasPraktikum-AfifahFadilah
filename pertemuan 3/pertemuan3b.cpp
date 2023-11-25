@@ -14,15 +14,14 @@ int main() {
     cin >> angka3;
 
     int terbesar = angka1;
-
+    {
     if (angka2 > terbesar) {
         terbesar = angka2;
     }
-
-    else if (angka3 > terbesar) {
+    else if (terbesar < angka3) {
         terbesar = angka3;
     }
-    
+    }
     cout << "Angka terbesar adalah: " << terbesar <<endl;
 
     return 0;
